@@ -1,0 +1,12 @@
+[package]
+name = "xfsprogs-sys"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2"
+anyhow = "1.0"
+
+[build-dependencies]
+cc = "1.0"
+bindgen = "0.60.1"
